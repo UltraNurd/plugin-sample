@@ -1,23 +1,23 @@
-Title of your plugin
+Remove YouTube Play Indicator
 ====================
 
-Plugin for [YOURLS](http://yourls.org) `<here: min-version if applicable>`. 
+Plugin for [YOURLS](http://yourls.org) `v1.7`. 
 
 Description
 -----------
-*Here*: replace this paragraph with a detailed explanation of what your plugin does: what it improves, what it adds, or the default behavior it replaces. Use clear and short sentences. Be convincing.
+Recently (August 2013), YouTube [added](http://ultranurd.net/s/1A) a play indicator that modifies the `<title>` attribute to include U+25B6 BLACK RIGHT-POINTING TRIANGLE. I don't like this showing up in the title in the admin interface. This plugin strips out the prepended character.
 
 Installation
 ------------
-1. In `/user/plugins`, create a new folder named `<here: your plugin folder name>`.
+1. In `/user/plugins`, create a new folder named `youtube-play-indicator`.
 2. Drop these files in that directory.
 3. Go to the Plugins administration page ( *eg* `http://sho.rt/admin/plugins.php` ) and activate the plugin.
-4. Have fun!
+4. Death to triangles!
 
 License
 -------
-*Here*: your license type. Feel free to use YOURLS' license, aka *"Do whatever the hell you want with it"*.
+YOURLS License: Do whatever the hell you want with it.
 
 One more thing
 --------------
-*Here*: any other content, as needed. An important information should be contact information for bug reports or user questions, if you decide not to use Github issues in your plugin repository.
+This plugin is [hosted on GitHub](https://github.com/UltraNurd/youtube-play-indicator)
