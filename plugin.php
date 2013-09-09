@@ -16,7 +16,7 @@ yourls_add_filter( 'add_new_title', 'nurd_rytpi_remove_play_indicator' );
 function nurd_rytpi_remove_play_indicator( $original_title, $url, $keyword = '' ) {
 	// Get the domain and check if it's from YouTube
 	$domain = parse_url( $url, PHP_URL_HOST );
-	if ( preg_match( '/(youtube|youtu\.be)/', $domain ) ) {
+	if ( function_exists( 'mb_convert_encoding' ) && preg_match( '/(youtube|youtu\.be)/', $domain ) ) {
 		// From YouTube, so kill that triangle
 		$title = @mb_convert_encoding( preg_replace( '/^\x{25B6}\s*/u', "", $original_title ), 'UTF-8' );
 		return $title;

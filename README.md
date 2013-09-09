@@ -14,6 +14,8 @@ Installation
 3. Go to the Plugins administration page ( *eg* `http://sho.rt/admin/plugins.php` ) and activate the plugin.
 4. Death to triangles!
 
+This plugin requires that the mbstring module be enabled in your PHP install.
+
 License
 -------
 YOURLS License: Do whatever the hell you want with it.
