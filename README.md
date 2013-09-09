@@ -1,7 +1,7 @@
 Remove YouTube Play Indicator
 ====================
 
-Plugin for [YOURLS](http://yourls.org) `v1.7`. 
+Plugin for [YOURLS](http://yourls.org) `v1.6`. 
 
 Description
 -----------
